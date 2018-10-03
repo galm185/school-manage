@@ -1,0 +1,280 @@
+/*  body  */
+body {
+    direction: ltr;
+    background: url("images/bg.jpeg") no-repeat top center;
+    background-size: cover;
+    margin: 0 auto;
+    font-size: 1em;
+    font-family: 'Concert One', cursive;
+}
+/*   header   */
+header {background: #66b1fad6;padding: 0 0.5em;box-shadow: 0px 0px 30px #000000b0, 0px 0px 2px #000000b0;}
+header nav {
+    display:  flex;
+    justify-content:  space-between;
+    align-items:  center;
+}
+header nav a {
+    text-decoration:  none;
+    color: #fff;
+    text-shadow: 0px 0px 9px #000, 0px 0px 5px #000, 0px 0px 2px #000;
+    font-size: 1.2em;
+}
+
+header nav a:nth-child(2){padding-left: 1em;padding-right: 1em;}
+
+header nav a img {
+    width: 5rem;
+    padding-top:  0.4rem;
+}
+header nav #login {
+    width: 40em;
+    text-align:  right;
+}
+
+header nav #login a {
+    display:  block;
+}
+header nav #login #user_name {
+    padding-top:  0.6rem;
+}
+header nav #login span {
+    float:  right;
+    width: 3rem;
+    height:  3rem;
+    border-radius:  25px;
+    margin-left: 0.7rem;
+}
+
+header nav #login #logout {font-size:  0.7rem;text-decoration:  underline;}
+
+/*    main   */
+main {
+    display:  flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    padding: 0rem 1.6em;
+    flex-wrap:  wrap;
+}
+main #courses {}
+main #courses h2 {
+}
+main #courses h2 button {
+}
+main #courses a {
+}
+main #courses a span {}
+.category {
+    display:  flex;
+    justify-content:  space-between;
+    align-items:  center;
+    width: 11rem;
+    border-bottom: 1px solid #fff;
+    color: #002152;
+    text-shadow: 0px 0px 19px #fff, 0px 0px 10px #fff, 0px 0px 7px #fff;
+    padding: 0.3rem;
+    margin-top: 0;
+}
+.info {
+    display:  block;
+}
+.image {
+    width: 2.2rem;
+    height: 2.2rem;
+    float:  left;
+    margin: 0.2rem;
+    border: 2px solid #002152;
+    background-size:  cover;
+    border-radius:  20px;
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+}
+.add {
+    background: #002b4369;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 0px 30px;
+    transition: 0.15s ease-in-out;
+}
+.add:hover{background-color: #c4dce3;cursor:  pointer; color: black;}
+.add a{color: white;text-decoration: none;padding: 0 0.4em;}
+.add a:hover{color: black;}
+.nav {
+    padding: 0.5em;
+    background: #7fbcf970;
+    box-shadow: 0px 0px 30px #000000b0, 0px 0px 2px #000000b0;
+    margin-bottom:  3rem;
+    height:  23em;
+    overflow: auto;
+}
+.links {
+    display: block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px #000000b0;
+    height: 2.8rem;
+    background: #ffffffa1;
+    color: #002152;
+    text-shadow: 0px 0px 19px #fff, 0px 0px 10px #fff, 0px 0px 7px #fff;
+    transition: 0.2s ease-in-out;
+}
+.links:hover{
+    background-color: #4174a8a1;
+    padding: 0 1.9em;
+    box-sizing: border-box;
+}
+main #students {}
+main #students h2 {}
+main #students h2 button {}
+main #students a {}
+
+img.img {width: 100%;border-radius: 20px;}
+
+main #main_container {
+    width: 36em;
+    height: 24em;
+    background: #7fbcf970;
+    box-shadow: 0px 0px 30px #000000b0, 0px 0px 2px #000000b0;
+    margin-bottom: 3em;
+}
+
+h1{color: black;font-family: 'Shojumaru', cursive;text-align:  center;font-size:  3.2em;text-shadow: 0px 0px 72px #fff, 0px 0px 72px #e2f8f7, 0px 0px 72px #e2f8f7, 0px 0px 72px #e2f8f7;}
+
+#main_container #main-header{
+    width:  100%;
+    background-color: #304c688f;
+    display:  flex;
+    justify-content: space-between;
+    padding: 0px 0.7rem;
+    align-items:  center;
+    box-sizing:  border-box;
+    height:  3.2em;
+    margin-bottom:  0.5em;
+}
+#main-header h3{
+    color: #002152;
+    text-shadow: 0px 0px 19px #fff, 0px 0px 10px #fff, 0px 0px 7px #fff;
+}
+.button{
+    color: #002152;
+    text-shadow: 0px 0px 19px #fff, 0px 0px 10px #fff, 0px 0px 7px #fff;
+    border:  1.4px solid;
+    padding:   0.2em 0.4em;
+    border-radius:  7px;
+    box-shadow: 0px 0px 1px 3px #FFf;
+    text-decoration:  none;
+}
+#main-info{
+    display:  flex;
+    flex-wrap:  wrap;
+}
+#wrapp-img{
+    width: 18%;
+    padding:  0 0.6em;
+}
+#main-info img{
+    width: 100%;
+    border-radius:  50%;
+}
+#main-info h2{
+    width: 70%;
+    margin:  0;
+    color: #002152;
+    text-shadow: 0px 0px 19px #fff, 0px 0px 10px #fff, 0px 0px 7px #fff;
+}
+#main-info span{
+    width: 100%;
+    color: #002152;
+    text-shadow: 0px 0px 19px #fff, 0px 0px 10px #fff, 0px 0px 7px #fff;
+}
+#main-info p{overflow: auto;height: 2.5em;}
+
+
+#content{
+    width:  70%;
+    padding:  1em;
+    display:  flex;
+    flex-wrap:  wrap;
+}
+
+nav.list-info-main{
+        padding: 1.2em 2em;
+        overflow: auto;
+        height: 11em;
+        width: 11.5em;
+}
+
+nav.list-info-main a{
+    text-decoration:  none;
+    color: #002152;
+    text-shadow: 0px 0px 19px #fff, 0px 0px 10px #fff, 0px 0px 7px #fff;
+    display:  flex;
+    align-items:  center;
+    padding:  0.4em;
+    box-shadow: 0px 2px 9px #2409c2;
+    width: 12em;
+    box-sizing:  border-box;
+    height: 2.8em;
+    transition: 0.2s ease-in-out;
+}
+nav.list-info-main a:hover{
+    background-color: #4174a8a1;
+    padding-left: 2.4em;
+    box-sizing:  border-box;
+}
+div.wrapp-img-link{
+    width: 17%;
+    margin-right:  1em;
+    margin-top:  0.4em;
+}
+.img-main{
+    width:  100%;
+    border-radius:  50%;
+}
+/*@media  screen and (max-width: 600px) {
+    header nav a img{display: none;}
+    header nav div#login span{display: none;}
+    header nav #login #user_name{font-size: 1em;}
+}
+
+
+@media  screen and (max-width: 420px){
+
+    header nav{font-size: 0.8em;}
+}
+@media  screen and (max-width: 350px){
+
+    header nav{font-size: 0.55em;}
+
+}
+*/
+
+@media screen and (max-width:1100px){
+    body{font-size: 0.8em;}
+}
+
+@media screen and (max-width:950px){
+    body{font-size: 0.6em;}
+}
+
+/*scrollbar*/
+
+::-webkit-scrollbar {width: 0.7em;}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #235eff;
+    border-radius: 10px;
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #002152c2;
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4a35bfcc; }
+
+/*scrollbar*/
